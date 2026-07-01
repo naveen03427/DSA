@@ -1,0 +1,21 @@
+git config user.name ## check the user name 
+git config ---global --list  ## it will dispaly the usernma and email 
+git init ## Initialize a git repository ,  Creates a new local git repository , Set up .git directory , NEbales version control for the project , Allows you to make commits and tracks changes.
+		#If we dont run  git init git does not know that you r folder is repositroy .  Where git commands wont work
+==> if we do not to run git init  beacuse git  clone automatically creates the .git
+		-> New project RUn git init first 
+		-> Existing repossitory cloned with git clone No need to run git init
+Note : Withpu git init or git clone Git commands will fails beacuse the direcotory is not a Git repository.
+
+git remote -v => Shows the remote repositories connected to your local
+origin  =? Default name of the remote repositry 
+(push ) => Used to upload changes to Github 
+
+git init --bare myproject.git ## this create a bare repositry which is arepository without a working irectory (No source code file s). A bare reposiotry is used as  central repositry when developers push and pull code.
+
+## Git init --bare ==> Creaate a remote style repositry , deos not contian working fiels, Used as central server fro sharing 
+##git init ==> create a normla local repository , continas your project files,, Used for developlement
+
+## Git add # moves yours changes into the staging area it tells Git I want to include these changes in my next commit. it does not save your chanegs permanetly it only prepare them. 
+
+##
